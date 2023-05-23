@@ -16,4 +16,40 @@
 body {
   margin: 20px;
   padding: 20px;
+  color: black;
+
+}
+
+.task-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.task-checkbox {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.action-btn {
+  background-color: darkblue;
+  color: white;
+  margin: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.action-btn:hover {
+  text-decoration: none;
+  color: darkblue;
+  background-color: white;
+  box-shadow: 5px 5px 20px rgba(10, 17, 150, 0.795);
 }
